@@ -1,0 +1,112 @@
+table{
+    width: 60%;
+   padding: 10px;
+    border-collapse: collapse;
+}
+/* .photo1,.photo2,.photo3{
+    padding: 20px 400px; */
+/* } */
+td>img{
+    padding: 20px 350px;
+}
+.photo1:hover{
+    animation-name: rotateImg;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes rotateImg{
+    10%{
+        transform: translateX(0px) rotate(45deg);
+        transition: all 4s ease 0;
+    }
+    35%{
+        transform: translateX(60px) rotate(90deg);
+        transition: all 4s ease 0;
+    }
+    50%{
+        transform: translateX(120px) rotate(180deg);;
+        transition: all 4s ease 0;
+    }
+    75%{
+        transform: translateX(250px) rotate(270deg);;
+        transition: all 4s ease 0;
+    }
+    100%{
+        transform: translateX(350px) rotate(360deg);
+        transition: all 4s linear 0;
+    }
+    
+}
+
+.photo2:hover{
+    animation-name: rotateImg2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes rotateImg2{
+    10%{
+        transform: translateX(0px) rotate(-45deg);
+        transition: all 4s ease 0;
+    }
+    35%{
+        transform: translateX(-60px) rotate(-90deg);
+        transition: all 4s ease 0;
+    }
+    50%{
+        transform: translateX(-120px) rotate(-180deg);;
+        transition: all 4s ease 0;
+    }
+    75%{
+        transform: translateX(-250px) rotate(-270deg);;
+        transition: all 4s ease 0;
+    }
+    100%{
+        transform: translateX(-350px) rotate(-360deg);
+        transition: all 4s linear 0;
+    }
+    
+}
+
+.photo3:hover{
+    animation-name: rotateImg3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+    
+    
+}
+@keyframes rotateImg3{
+    10%{
+        transform: translateY(0px) rotate(45deg);
+        transition: all 4s ease 0;
+    }
+    35%{
+        transform: translateY(60px) rotate(90deg);
+        transition: all 4s ease 0;
+    }
+    50%{
+        transform: translateY(120px) rotate(180deg);;
+        transition: all 4s ease 0;
+    }
+    75%{
+        transform: translateY(250px) rotate(270deg);;
+        transition: all 4s ease 0;
+    }
+    100%{
+        transform: translateY(350px) rotate(360deg);
+        transition: all 4s linear 0;
+    }
+    
+}
